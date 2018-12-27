@@ -8,7 +8,8 @@ You might need to have correct version of dotnet core sdk before running the Nun
 
 ## Methods
 The following method adds 1 day to Monday and returns Tuesday.
-```
+
+```csharp
 
 DayOfWeek.Monday.AddDays(1)
 
@@ -16,7 +17,7 @@ DayOfWeek.Monday.AddDays(1)
 
 You can use following method to get all the days between Monday to Friday.
 
-```
+```csharp
 
 DayOfWeek.Monday.GetDaysBetween(DayOfWeek.Friday)
 
